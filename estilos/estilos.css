@@ -1,0 +1,29 @@
+body{
+    background-color: #E3DAC9;
+    font-family: arial, sans-serif;
+}
+.LogoNav{
+    width: 100px;
+}
+.tarjeta{
+        width: 250px;
+}
+
+.tarjeta img{
+    border: 1px solid black;    
+    width: 150px;
+    margin: 4px 50px;
+}
+     
+.precio{
+        color: green;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+
+     
+     @media (max-width: 576px) {
+  .card-body {
+    text-align: center;
+  }
+     }
