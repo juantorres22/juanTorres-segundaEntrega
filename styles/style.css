@@ -1,0 +1,119 @@
+/* Body Estilos */
+body {
+   background-color: #E3DAC9;
+   font-family: arial, sans-serif;
+}
+
+.LogoNav {
+   width: 100px;
+
+}
+
+.LogoNav:hover {
+   transform: scale(1.02);
+}
+
+/* Main Estilos */
+.tarjeta {
+   width: 250px;
+}
+
+.tarjeta img {
+   border: 1px solid black;
+   width: 150px;
+   margin: 4px 50px;
+}
+
+.flex-tarjetas {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 0.5rem;
+}
+
+.precio {
+   color: green;
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-button {
+   width: 100%;
+   border: none;
+   padding: 0.5rem;
+   background-color: black;
+   color: #fff;
+   transition: transform 0.5s;
+
+}
+
+.container-button:hover {
+   transform: scale(1.02);
+}
+
+.container-local {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   padding: 1rem;
+}
+
+.container-trabajo {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   padding: 1rem;
+   transition: transform 1.5s;
+}
+
+.container-trabajo:hover {
+   transform: scale(1.05);
+}
+
+/* Página compras */
+.texto-compras{
+   color: white;
+   padding: 2rem;
+   text-align: center;
+}
+
+.lista-productos {
+   max-width: 900px;
+   margin: 2rem auto;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   padding: 0 1rem;
+   transition: transform 1.02s;
+}
+
+.lista-productos:hover{
+   transform: scale(1.05);
+}
+
+.producto {
+   background: white;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+}
+
+.producto img {
+   width: 150px;
+   object-fit: contain;
+   padding: 1rem;
+}
+
+.producto .info {
+   padding: 1rem;
+}
+
+
+/* Media */
+@media (max-width: 576px) {
+   .card-body {
+      text-align: center;
+   }
+}
